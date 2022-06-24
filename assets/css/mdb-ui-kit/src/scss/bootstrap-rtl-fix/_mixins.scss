@@ -1,0 +1,43 @@
+// Toggles
+//
+// Used in conjunction with global variables to enable certain theme features.
+
+// Vendor
+@import 'src/scss/bootstrap-rtl-fix/vendor/rfs';
+
+// Deprecate
+@import 'src/scss/bootstrap-rtl-fix/mixins/deprecate';
+
+// Helpers
+@import 'src/scss/bootstrap-rtl-fix/mixins/breakpoints';
+@import 'src/scss/bootstrap-rtl-fix/mixins/color-scheme';
+@import 'src/scss/bootstrap-rtl-fix/mixins/image';
+@import 'src/scss/bootstrap-rtl-fix/mixins/resize';
+@import 'src/scss/bootstrap-rtl-fix/mixins/visually-hidden';
+@import 'src/scss/bootstrap-rtl-fix/mixins/reset-text';
+@import 'src/scss/bootstrap-rtl-fix/mixins/text-truncate';
+
+// Utilities
+@import 'src/scss/bootstrap-rtl-fix/mixins/utilities';
+
+// Components
+@import 'src/scss/bootstrap-rtl-fix/mixins/alert';
+@import 'src/scss/bootstrap-rtl-fix/mixins/backdrop';
+@import 'src/scss/bootstrap-rtl-fix/mixins/buttons';
+@import 'src/scss/bootstrap-rtl-fix/mixins/caret';
+@import 'src/scss/bootstrap-rtl-fix/mixins/pagination';
+@import 'src/scss/bootstrap-rtl-fix/mixins/lists';
+@import 'src/scss/bootstrap-rtl-fix/mixins/list-group';
+@import 'src/scss/bootstrap-rtl-fix/mixins/forms';
+@import 'src/scss/bootstrap-rtl-fix/mixins/table-variants';
+
+// Skins
+@import 'src/scss/bootstrap-rtl-fix/mixins/border-radius';
+@import 'src/scss/bootstrap-rtl-fix/mixins/box-shadow';
+@import 'src/scss/bootstrap-rtl-fix/mixins/gradients';
+@import 'src/scss/bootstrap-rtl-fix/mixins/transition';
+
+// Layout
+@import 'src/scss/bootstrap-rtl-fix/mixins/clearfix';
+@import 'src/scss/bootstrap-rtl-fix/mixins/container';
+@import 'src/scss/bootstrap-rtl-fix/mixins/grid';
