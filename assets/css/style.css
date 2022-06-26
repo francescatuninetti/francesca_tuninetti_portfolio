@@ -15,13 +15,14 @@ h1{
     color: #a161e7;
     font-size: 35px !important;
     padding-top: 70px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 h2{
     font-weight: 800 !important;
     color: #ff9100;
     font-size: 2rem !important;
+    padding-bottom:30px;
 }
 
 h3{
@@ -278,6 +279,8 @@ max-width: 70%
         justify-items: center;
         height:600px;
     }
+
+
 }
 
 @media screen and (max-width: 1010px) {
@@ -305,6 +308,8 @@ max-width: 70%
     #homepage-pic{
         width:100%;
         height:100%;
+        min-width:100px;
+        padding:0;
     }
 
     #logo{
@@ -313,14 +318,14 @@ max-width: 70%
 
     #logo-small-page{
         display: block;
-        width:5%;
+        width:20%;
         padding-top:20px;
         padding-bottom: 20px;
+        max-width: 120px;
     }
 
     #homepage-text{
-        padding-left:70px;
-        padding-right:70px;
+
         text-align: center;
     }
 
@@ -373,6 +378,15 @@ max-width: 70%
     .tech-skills-list>ul>li{
         padding-right:0;
         padding-left:0;
+        padding-top:10px;
+        padding-bottom:30px;
+    }
+
+    .soft-skills-list>ul>li{
+        padding:0;
+    }
+    .soft-skills-list>ul>li>h3{
+        padding:0;
     }
 
     .carousel-first .carousel-text-1{
@@ -396,8 +410,6 @@ max-width: 70%
     }
 
     #homepage-text{
-        padding-left:70px;
-        padding-right:70px;
         text-align: center;
     }
 
